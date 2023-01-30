@@ -120,6 +120,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := BRAND_SHOW_FLAG=oneplus
 TARGET_KERNEL_SOURCE := kernel/msm-4.19
 TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig
 KERNEL_CUSTOM_LLVM := true
+KERNEL_CUSTOM_LLVM_BIN := /mnt/Android/pee/prebuilts/clang-standalone/bin
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
